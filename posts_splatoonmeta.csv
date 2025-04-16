@@ -1,0 +1,828 @@
+﻿id_post,titulo_post,fecha_post,autor_post,URL,numero_comentarios,texto_post,tiene_texto,score
+yvcf72,"Friendly reminder that any Bomb that explode instantly on barriers also explode on Crab Tank, so if you throw one on it's back it will instantly kill the pilot.",2022-11-14 20:58:42,TumblrRefugeeNo103,https://v.redd.it/aw2txtbtczz91,10,,No,203
+xe4qqb,A tierlist was made by two of the best Splatoon players.,2022-09-14 15:22:23,altemajor,https://i.redd.it/dtyy2l5ndun91.jpg,66,,No,179
+wynvpt,How to Forward Squid Roll: The 3 Strategies (Explained in Comments),2022-08-26 23:46:45,Rainmixer,https://v.redd.it/d211bpq9a5k91,14,Look in comments for the 3 Strategies.,Sí,119
+1f6wy7s,“Pro” Splatoon,2024-09-02 03:26:36,LocksmithPrudent3357,https://www.reddit.com/r/SplatoonMeta/comments/1f6wy7s/pro_splatoon/,56,"Hi all, my 23 year old brother still lives with my parents and the reason is because he’s becoming a “professional” splatoon player. Recently, he just got to S rank for the first time. He has thousands of hours into the game. I’m also S rank and I only have a couple hundred hours in the game. I also constantly beat him 1 on 1. Yet, he has our parents in a chokehold and they actually believe him and his professional aspirations. How do I get through either his head or my parents’ head? Thanks.",Sí,109
+ys7uhw,Why Ink Recovery is (nearly) useless,2022-11-11 11:33:39,Pegthaniel,https://www.reddit.com/r/SplatoonMeta/comments/ys7uhw/why_ink_recovery_is_nearly_useless/,32,"I’m moving this from a comment I made in the regular /r/splatoon discord (with a little cleanup and bonus Splat Bomb-centric math) because I see so many build questions here, and so many players including Ink Recovery in their builds. Here’s why Ink Recovery is fundamentally (nearly) useless. I’ll be going over mathematically how it (almost) never saves time in a variety of situations. Hopefully this helps people!
+
+
+First of all, Ink Recovery doesn't save any time refilling a main weapon when compared to Ink Saver Main. Here's a basic case: you win a fight with Splattershot, and it takes 27 shots (default full tank is 108.7, so this is 24.8% used, about one quarter). I picked it so it would be in that 25% range, but it could be any number and the following calculations will apply the same way:
+
+* With 10AP of Ink Saver Main, you use 21.5% instead to fire the same 27 shots. Let's compare that to having 10AP of Ink Recovery.
+
+* In the Recovery case, it takes 2.68 seconds to fill a full ink tank, so filling 24.8% takes **0.666 seconds**.
+
+* In the ISM case: it take 3 seconds to fill a full ink tank, so filling 21.5% takes **0.643 seconds**.
+
+As you can see, a main of ISM is better than Ink Recovery. You get additional shots for very long fights, and for a fight that takes the same number of shots, you take a tiny bit less time to refill to 100%.
+
+Let's see if it falls off. We'll compare 10AP of each to 20AP of ISM, using up the same 27 shots to make my calculations easier. 
+
+* 10AP each: it takes 2.68 seconds to fill a full tank, so filling 21.5% takes **0.575 seconds**.
+
+* 20AP ISM: you can fire 144.62 shots, so 27 shots is 18.7% used. It takes 3 seconds to fill a tank, so it takes **0.560 seconds** to fill back to 100%.
+
+As you can see, it doesn't fall over even at 20AP, or 2 mains. What about 30AP ISM, against 20/10 split, against 10/20 split?
+
+* 30 ISM: 0.495 seconds.
+* 20 ISM, 10 Recovery: 0.500 seconds.
+* 10 ISM, 20 Recovery: 0.521 seconds.
+
+Hopefully this shows why it doesn't make sense to ever run Ink Recovery if your problem is an ink hungry main weapon (but let's be real, nobody should be running 30 or more AP of ink saver or ink recovery). 
+
+OK, what about mixed usage? Surely Ink Recovery has an edge there, because it impacts both sides of ink usage compared to the savers. Let's make another basic scenario where you use your Splattershot's bomb and the fire until empty in a fight, and have to refill right away:
+
+* 19AP of Ink Recovery uses up the full tank to throw a bomb and shoots until dry--32 shots.
+  * It takes **2.45 seconds** to refill.
+
+* For a 10AP ISM, 9AP ISS build tossing a bomb and using 32 shots, you retain 11.6% of your tank (14 shots). That means we need to refill 88.4% of the tank.
+  * It takes **2.65 seconds** to refill.
+
+* You might think ""OK, this is a clear Ink Recovery win, right?"" Well, lets add a new twist: we get into the next fight after exactly 2.45 seconds. Lets see what each weapon can do:
+
+  * 19AP Ink Recovery can throw 1 bomb and shoot 32 shots, or shoot 108 shots.
+  * 10AP ISM, 9AP ISS build refills `2.45/3 = 81.7%`. Add that to the 11.6% of the tank remaining, we get 93.4%. If we throw a bomb, we have 37 shots. If we don't throw a bomb, we have 117 shots.
+
+As you can see, while you *do* save time refilling, you aren't as capable in the next fight as the Ink Saver build. Running the Savers makes you more flexible. If you don't have time to fully refill, you can still output more shots than the Ink Recovery build. If you can refill for more time, you have extra capacity that the Ink Recovery build will never have. 
+
+There's one situation where Ink Recovery sort of wins. You can compare a single main of ISS or ISM to a single main of Ink Recovery in the same maxed out, mixed use situation:
+
+* After the first fight: 
+  * Ink Recovery refills completely in 2.68 seconds.
+  * 1 ISM refills completely in 2.88 seconds, has 5 extra shots before refilling.
+  * 1 ISS refills completely in 2.76 seconds, has 8 extra shots before refilling.
+
+* What you can do if you enter a second fight after exactly 2.68 seconds and then throw a bomb:
+  * Ink Recovery can shoot 32 times.
+  * ISM can shoot 30 times.
+  * ISS can shoot 38 times.
+
+ISS still wins, but not ISM. Even then if you can refill ink for just 3 more frames (164 instead of 161), ISM is doing just as well. For every frame after, you're doing better.
+
+And now a bonus discussion on the ink economics of bomb usage. Lets look at Jr going for double splat bombs under the maxed-out effects of LDE. This includes some Ink Recovery, but we’ll pretend it doesn’t exist in 1 build vs the full 24AP in another just to show how ineffectual it is. We’ll also simplify double bombing to use up 100% of the ink tank under LDE (it’s actually about 99%).
+
+* There is a 1 second delay after throwing a bomb before you can refill. 
+* Without any Ink Recovery AP, it will take 4.32 seconds to refill, including the 1 second of delay.
+* In a pretend scenario where you have 12 Ink Recovery AP, it will take 3.95 seconds.
+* In the real world of LDE giving 24 Ink Recovery AP, it will take 3.89 seconds.
+
+Overall, the Ink Recovery part of LDE saves you 0.43 seconds out of what would otherwise be 4.32 seconds, which translates to about 25 (26?) frames. This 25 frame time savings would come at the cost of 8 subs (or a bit more than 2 mains + 1 sub) if it wasn’t bundled into LDE for free. Compare how a *single sub* of QSJ saves you just as much time as 12AP of Ink Recovery—22 frames or 0.37 seconds. Admittedly, you Super Jump a lot less than you refill ink, but hopefully this paints a full picture of how unimpactful Ink Recovery is.",Sí,100
+ypx53i,"Top 8's team compositions at Japan's Yagura cup. Notice the most used weapon isn't Machine, it's Splash.",2022-11-08 20:13:14,Narrow-Bicycle6196,https://i.redd.it/dvuhxgv6tty91.png,34,,No,98
+h9t7fi,Plz rate this gear set,2020-06-16 01:04:07,geosplat,https://i.redd.it/v3vtf35x86551.png,11,,No,84
+xqopaj,ProChara Weapon/Special Tier Lists for Current Patch,2022-09-28 21:17:27,127-0-0-1_1,https://twitter.com/ProChara/status/1575209596028788737?s=20&t=Ov0tSFNv-qoi_d2aAZLESg,25,,No,78
+i2wg86,Just a heads up...the next salmon run shift will probably be the best one we’ve gotten in a long time. Prepare yourselves for some great battles!,2020-08-03 12:49:57,oh-lawd-hes-coming,https://i.redd.it/um9pg21qase51.jpg,15,,No,77
+z1casd,"So once Chill Season drops, we're definitely gonna get one of THESE kinds of buffs... but for Angle Shooter, right?",2022-11-21 22:24:16,Iinneus,https://i.redd.it/o0jgr0zmqd1a1.png,10,,No,72
+xo3143,Has anyone else felt Splatoon 3’s matchmaking is the worst it’s ever been?,2022-09-25 23:52:13,Liveoptimistic,https://www.reddit.com/r/SplatoonMeta/comments/xo3143/has_anyone_else_felt_splatoon_3s_matchmaking_is/,31,"I usually try to keep a level head when it comes to playing online games and remember that when things feel unfair for me they often also feel unfair for the opposing team as well. So when I got Splatoon 3 a couple weeks ago and it felt like my opponents were always better than my team, I ignored it assuming it would all even out eventually… but boy was I wrong. 
+
+Ever since launch almost 70% of my games have felt completely unwinable due to the skill gap between our teams. At first I assumed that I was really rusty and I was the weak link dragging down my team, but after a while I realized that I’m consistently best player on my team by KDR, objectives, etc. And while my team rarely feels like complete and total noobs, we’re constantly matched against players with much higher game knowledge and skill expression than us. I’m constantly seeing people utilizing armor frames, advance movement tech, and specific camping spots like they’re A+ rank when I’m stuck down here in C-. 
+
+The only thing I can think of is that it’s because I implemented my Splatoon 2 data and thus it matches me with more experienced players but that doesn’t apply to my own team? I don’t know but it’s honestly so frustrating it’s killing my excitement for the game which makes me really sad because this was the generation I vowed to really dig into the competitive side of this game. 
+
+Is anyone else feeling this? Any tips on how to keep the game fun even when losing 70% of matches?",Sí,71
+ndi6ts,My thoughts on the viability of specials in the game rn. Any thoughts? (Obviously some specials will be better than others depending on the other specials on the team and none of these specials are really unusable),2021-05-16 06:27:27,tree_twig,https://i.redd.it/fiz6g3x6ffz61.jpg,32,,No,68
+nsuirn,Slosher tier list (5.4 Zones),2021-06-05 12:18:05,waluigismashedme,https://i.redd.it/upixuz8zvf371.png,18,,No,71
+y2ysc3,"Splatoon 3 1.2.1 Tier List All modes (my opinion, obviously) (tiers unordered)",2022-10-13 13:29:11,WhaleWithGingerAle,https://i.redd.it/a7p66zotrkt91.png,48,,No,68
+1fkze8l,just hit S+ for first time,2024-09-20 00:26:12,Illustrious-Debt-191,https://i.redd.it/djuqtxg3zupd1.png,24,"just got the game like 2 months ago so I dont think I have genuine experiece with the game nd have mostly been adapting to how others play, any solid tips you could give me so that i don't potentially get my ass beat in X rank? dont mind how potentially redundant/obvious some are (also obligatory build image)",Sí,65
+1046tdl,"""cold"" colored team wins 55% of the time vs warm colored team.",2023-01-05 18:54:10,Reikou,https://www.reddit.com/r/SplatoonMeta/comments/1046tdl/cold_colored_team_wins_55_of_the_time_vs_warm/,11,"Found this on JP twitter and think this is very interesting.
+
+Maybe this is known already, but based on research from [stat.ink](https://stat.ink) over the period of  22/12/17\~23/01/04, it seems the team cold colored teams win 55ish% of the time vs warm colored teams.
+
+[Source: https:\/\/twitter.com\/oniyome\_ml\/status\/1610975988745371654\/photo\/1](https://preview.redd.it/qo5k686ut9aa1.jpg?width=647&format=pjpg&auto=webp&s=1ae3737eb1f9e97781766d112bd8cfc0446e3e03)
+
+&#x200B;
+
+This is a huge advantage, and there seems to be a visibility-related advantage for these colors.
+
+Interestingly, this also matches up with all the splatfest results from Splatoon 3 as well.",Sí,62
+yecv9r,I got a naturally occurring pure. Unfortunately it’s of bomb defense up. Should I keep it?,2022-10-26 23:54:33,DanceMan1O,https://i.redd.it/cqf3px3bn8w91.jpg,17,,No,64
+yg0zo9,Finally got my perfect look and stat Hero shot replica build ! Very happy,2022-10-28 21:24:04,Dragor027,https://i.redd.it/6prdm8prnnw91.jpg,18,,No,67
+zcu2uu,I’ve been using this kit and it works amazingly! It’s also very fun to use.,2022-12-05 02:26:17,Sallyismymom924,https://i.redd.it/0q989cdg714a1.jpg,24,,No,58
+10jxvms,Earned 5 Star Freshness For Tenta Brella — My Thoughts On The Weapon,2023-01-24 05:12:39,TheBluestJay,https://i.redd.it/ome04empuyda1.png,23,"I've been a Tenta Brella main since the announcement of the Camo Tenta Brella from Splatoon 2. The mechanics, the complexity of the weapon, and the type of play it provides clicks with me more than any other class currently in Splatoon 3. It's just a shame Nintendo doesn't know how to implement the class properly. 
+
+Regardless, there's still fun to be had because, if used properly, it can counter some of the obnoxious meta and hyper aggressive play currently out there. Being able to absolutely shut down reckless approaches makes matches feel more fun. Forcing my team to a neutral or advantage state with in these incredibly linear maps with my Brella and vacuum makes movement feels a bit less restricting. 
+
+Tenta Brella, when it works, acts like a bandaid to the developer's questionable design choices. It brings some order to the shooter meta and balances the dominant aggressive playstyle.. when it works. 
+
+With that said, please buff the Brella class. 
+
+Thank you for your time.",Sí,56
+fxgfrn,What is a good gear set for the heavy splatling,2020-04-08 22:33:12,geosplat,https://i.redd.it/8yoto3748or41.png,13,,No,57
+laahi6,bro rate my setup,2021-02-01 18:39:29,cryptid-creatures,https://i.redd.it/v3j8d8qzuwe61.jpg,11,,No,57
+oxz11r,Slightly subjective chart showing how many viable a weapon can be based on kits,2021-08-04 18:29:08,waluigismashedme,https://i.redd.it/iysmgucvwdf71.png,17,,No,57
+kwfcfr,Objective blaster tier list (all modes),2021-01-13 12:20:43,waluigismashedme,https://i.redd.it/s2p2m1a3e3b61.jpg,21,,No,52
+ftcp5l,Is this a good gear set? i'll take any tips for the custom hydra to.,2020-04-02 00:59:56,geosplat,https://i.redd.it/veey3lmrzaq41.png,15,,No,52
+jmvb2p,This is my Hydra Splatling build. Did I go overboard with the run speed?,2020-11-02 20:22:19,Bi-Nocturnal,https://i.redd.it/q2tw7oqdyvw51.jpg,23,,No,51
+ge3z82,Rate my gear?,2020-05-05 19:10:22,Exinr,https://i.redd.it/nen8b47kwzw41.jpg,16,,No,47
+yd104b,Splatoon 3 update 1.2.0,2022-10-25 10:05:17,QWE0071,https://www.reddit.com/r/SplatoonMeta/comments/yd104b/splatoon_3_update_120/,21,"https://en-americas-support.nintendo.com/app/answers/detail/a_id/59461/~/how-to-update-splatoon-3#v120
+
+TLDR:
+
+* Improved data transfer between players, on average 0.05 seconds more quickly ~~maybe brella is more playable?~~
+
+* Bug fixes on Ultra Stamp, Sloshing machine through thin walls etc.
+
+* Fizzy Bomb time to recover ink after throwing increased by 0.25 seconds
+
+
+
+Special changes
+
+* Flingza Roller 200p -> 210p
+
+* Sloshing machine 200p -> 210p
+
+* REEF-LUX 450 200p -> 210p
+
+""We’ve implemented several adjustments to curtail to a certain extent the style of play where the player stays far removed from the action and continually uses sub weapons or special weapons. This patch prioritizes bug fixes, and other adjustments to weapons will continue in the next update.
+
+In addition, we’ve reduced the amount of time matchmaking takes for certain modes, reduced battle latency, and made small convenience improvements to the lobby and more.""
+
+Next update will be at end of season",Sí,48
+n8zsi1,Viable Jr build?,2021-05-10 08:50:20,Vani_Cst,https://i.redd.it/fmzif8p7b9y61.jpg,14,,No,46
+gxsad1,Kensa weapons tier list,2020-06-06 14:47:52,geosplat,https://i.redd.it/swxu7u0sya351.jpg,24,,No,47
+pj469x,My tier list based on what competitive role every weapon is,2021-09-06 17:34:04,ELIMINADO,https://i.redd.it/9d2ligs05xl71.png,36,,No,45
+nbjchc,My first custom hydra build. Thoughts?,2021-05-13 15:31:28,retrospectively_,https://i.redd.it/mzjh1bkipwy61.png,22,,No,45
+oz06en,"My Very Biased ""Does this weapon have untapped potential?"" Tier List",2021-08-06 05:15:57,Communiconfidential,https://i.redd.it/tdnknogy8of71.png,17,,No,45
+l929cz,New to the whole gear stuff! This is for the t-tek splattershot! Can y'all let me know if this is good build for the t-tek?,2021-01-31 02:26:59,YourMateKev1,https://i.redd.it/lnbperskwke61.jpg,13,,No,44
+gi9jby,Rate my build,2020-05-12 11:36:33,Mischa2206,https://i.redd.it/5z3218evlby41.png,11,,No,45
+10b6gvu,Why isn’t taticooler competitively viable?,2023-01-13 21:43:20,Slot-Machine-Addict,https://i.redd.it/p2ft6bof9xba1.jpg,17,,No,42
+bdlk1j,I’m a roller main but I’ve been liking the bamboozler a little too much. Love me pls,2019-04-15 21:33:02,T0rterraa,https://i.redd.it/j795sqw4yhs21.jpg,15,,No,41
+yso05q,Building for the Splattershot Jr. in Patch 1.2,2022-11-11 21:40:09,ELIMINADO,https://www.reddit.com/r/SplatoonMeta/comments/yso05q/building_for_the_splattershot_jr_in_patch_12/,15,"Howdy. Call me Paz. This is a long one.
+
+In my first few posts I took a look at [two](https://www.reddit.com/r/SplatoonMeta/comments/yhusj9/analyzing_procharas_builds_in_patch_12_range_build/) [builds](https://www.reddit.com/r/SplatoonMeta/comments/yn2hoz/analyzing_procharas_builds_in_patch_12_explosher/) that ProChara uses, and why [LDE isn't as much a given](https://www.reddit.com/r/SplatoonMeta/comments/ykjw4w/no_surprisingly_you_shouldnt_run_lde_on/) in builds as most people think it is. Today I want to try my hand at making a loadout guide for a weapon. Most would agree it's intuitive to start with the Splattershot Jr., but truely, it's a weapon with a lot of plasticity in it's loadout choices. 
+
+All of that stems from the simple fact that the Junior is a lightweight weapon with an already a cheap special and an expanded ink tank. The intersection of these three aspects of the Junior give it an inherent value package of Swim Speed, Ink Efficiency, and Special Charge. 
+
+**Junior's Base Value Abilities**
+
+You might squint at the last point. Even if I argue that most of the special guages for shooter class weapons sit at round 200p you'll point out that other competitors with Big Bubbler also sit around 180p. Simply put, those weapons aren't shooters, and they ***especially*** also aren't a shooter that paints as well as the Junior. 
+
+Weapons that typically have 200p gauges require 1.1 SCU (13AP) to match 180p gauges. As an aside this is somewhat deceptive as SCU is actually a bonus to how your ink charges the gauge, but it's easily expressed by a reduction in gauge for practical purposes. Lightweight imparts an ever so slightly stronger bonus than 0.2 SSU and 0.2 RSU, and a 10% larger tank is akin to 0.2 ISM (6AP) or 1.0 ISS (10AP). As an imperfect but close example, [this](https://sendou.ink/analyzer?weapon=40&build=SCU%2CSCU%2CRSU%2CSSU%2CISS%2CU%2CRSU%2CSSU%2CU%2CU%2CU%2CU&lde=0) is what the Junior has built in compared to the average normal weight weapon with a 200p special.
+
+**Junior's Place in the 1.2 Meta**
+
+With Sloshing Machines, E-Liters and a Crab Raves taking charge of the place, you might think that the humble dollar store squirt gun every one starts with can't stand toe to toe with the other titans of the meta, but the Junior carves it's niche as the premier Support and Big Bubbler user in our current environment. 
+
+Big Bubble is superb in many game states for it's ability to force situations with it's absurd shield and built in jump point. In SZ you can place it comfortably on the Zone to defend or take, in Rainmaker you can offer safe passage for the carrier and secure points. In Clam Blitz it can help extend a push on to the goal, and everyone already knows it's use on Tower Control. 
+
+Finding ways to get in and get Big Bubbler into a obnoxious position is core to the Junior's gameplan, and it's access to Splat Bombs and a large ink tank assist us immensely here. Indeed, superb paint, easy Bubbles, decent kill potential and the ability to comfortably bomb spam set it apart from the other candidates with Big Bubbler as it's special.
+
+With it's access to the latter in mind lets move on to three sample builds. None of these are by any measure an end all be all selection of builds, but exemplary of how many options are easy to fit on the Junior while keeping the support gameplan mind. I will be trying a few different options to each loadout to showcase just how flexible the Junior is, and explain how they benefit it.
+
+**Build 1:** [**Double Bomb Junior**](https://sendou.ink/analyzer?weapon=10&build=ISS%2CISS%2CQSJ%2CIRU%2CISS%2CISS%2CIRU%2CSCU%2CSJ%2CIRU%2CSS%2CRES&lde=0)
+
+Ever since the 3.2 patch in Splat2, the Junior has enjoyed being the only weapon that can toss two Splat Bombs back to back with much less Ink Saver Sub investment in it's loadout. Really, you only need 2.1 ISS (23AP) meet the threshold to double bomb, but that leaves you all but nothing in the tank. Adding one extra Sub of ISS to the build will afford you an extra seven of shots to ink your feet if necessary, or to fire a lethal round onto an opponent. 
+
+You might think it an unorthodox include 0.3 Ink Recovery Up which is widely considered to be [pretty useless in most builds](https://www.reddit.com/r/SplatoonMeta/comments/ys7uhw/why_ink_recovery_is_nearly_useless/), but with the Juniors expanded ink tank, we also have a longer time to recover our tank to full. The 0.3 IRU here help us cancel out the extra 1/3 second wait and bring us back to a normal recovery time of just under 3 seconds. I wouldn't fault you if you wanted to cut one or all three out in favor of something else.
+
+With 0.1 SCU we shave off five points from the special gauge any more and we only get four points for our investment, and lastly we include the compulsory value subs of 0.1 Special Saver, Quick Super Jump, Ink Resist imparting the benefits:
+
+* Lose only 41% of your gauge on being splat, rather than 50%
+* 3.27  total super jump time, from 3.63, a time save of 0.36 seconds, while  also lowering the frames you are vulnerable to attack from 80 to 58. In a  60FPS game like Splatoon, that means you are only out in the open for a  little under a second rather than 1.2 seconds.
+* Helps  you walk in enemy ink a bit better and hopefully save your membrane  from the unfortunate position your ambitions have landed you in. It also  Lowers DPS while in enemy ink from 18DPS to 12DPS, adds 10 frames  before you start taking damage, and lowers the max damage you take from  enemy ink from 40 to 38. 
+
+You'll usually see some splashing of those value abilities somewhere in builds, and they will be present two other loadouts. Stealth Jump is pretty close to the only ability in the game that everyone agrees is a given and I can't argue against it. At worse you deny the enemy team information on your whereabouts and at best you save yourself from being camped.
+
+**Build 2:**  [**LDE + Ninja Squid**](https://sendou.ink/analyzer?weapon=10&build=LDE%2CSSU%2CIA%2CIA%2CNS%2CSSU%2CSCU%2CSS%2CSJ%2CSSU%2CQSJ%2CRES&lde=0&effect=LDE)
+
+This is closer to what you'll likely see used by a competitive player. Ninja Squid assists in approach, skirmishes and more importantly help us in placing more aggressive Big Bubblers. Last-Ditch Effort at max bonus rolls all of the ink efficiency abilities we need to double bomb and cancel out the extended ink tank recovery time, and in the only game state where we'll want to double bomb from safety, disadvantage. 
+
+There's a lot of conversation about the place of ""supports"" in Splatoon 3 specifically, but the collective vibe I am getting from everyone is that the line between support and slayer is blurred. A good support player knows when to get in and get messy, and so a support weapon is also judged by it's ability to put effective kill pressure as well as prepare specials and put down paint.
+
+Getting back on track, 0.3 SSU here help us cancel out the speed penalty from Ninja Squid. You'd need 0.5 or 1.2 SSU to completely cancel it out and get back to the lightweight bonus, but here we managed reach just under normal weight's swim speed. It's just as valid a choice to forgo trying to bandaid the swim penalty in order to run whatever is more compelling to you in those three slots as lightweight weapons aren't hit as hard by the penalty. 
+
+0.2 Intensify Action enjoys a place on many shooter builds, usually anywhere from 0.1 to 0.3. While one might question the use of reducing a spray-shooters RNG while jumping, you get some pretty good mileage out of just 0.1 or 0.2 in this context (15° to 13.5 at 0.2 which is close to the grounded 12°) so if you jump often in your skirmishes or when trying to hit a target on a ledge this is a compelling choice.
+
+The value trio makes it's return along with it's 0.1 SCU Buddy.
+
+**Build 3:** [**LDE + Cheap Bubbler**](https://sendou.ink/analyzer?weapon=10&build=LDE%2CSS%2CQSJ%2CRES%2CSCU%2CSCU%2CBRU%2CBRU%2CSJ%2CIA%2CSSU%2CSSU&lde=0&effect=LDE) **(This also happens to be** [**Chara's Build**](https://sendou.ink/u/chara/builds)**)**
+
+I guess I couldn't avoid semi-analyzing a Chara Build.
+
+This is a build with LDE that instead has a focus on having on demand Big Bubblers. The gauge reduction from 180p to 162p isn't clean, but if we circle back to what I mentioned in the ""Junior's Value Abilities"" section, SCU was never a reduction to the special gauge, but a bonus to the way your ink charges it. So, with that in mind, I added points of SCU until we hit heavier diminishing returns. Adding another Sub beyond this point only gives us a 3p reduction.
+
+0.2 Sub Power Up is a popular choice in weapons that like to spam their bombs, which adds speed and distance to throw. It's something of a ""feel"" ability in the same way you might add Swim or Run Speed Up passed a reasonable point but you like the ""feel"" of having those points. A common rule with abilities is that the first 3AP - 10AP are the strongest, so with this choice we splashing the strongest amount of Sub Power Up with our free slots.
+
+0.2 Swim Speed Up is following the same theory of just adding the most beneficial speed we can to our build with the most competitive amount. 0.1 Intensify Action is a little over a 1° reduction on the jump shot deviation so, we might as well. Once again, the value boys are back in town.
+
+**Conclusion**
+
+The Junior is an often looked over weapon in favor of the seemingly stronger or more flashier options available in Splatoon, but it doesn't make it any less interesting a choice nor a weaker competitor for a spot in a composition. It's superb kit and inherent value make for a powerful choice inevitably that opens the door to theorycrafting with abilities in Splatoon.
+
+I hope I have demonstrated just how many things you can run on the Junior that still play into the objective of it's simple game-plan of safe bombs and big bubs. You can easily mix and match the small groups of Subs abilities in these builds to find a combination that you enjoy or prefer.
+
+Thank you for taking the time to read this, and would love to hear your throughts. What I got right, what I got wrong, and if you want me to expand on something a bit more. Take care",Sí,41
+y59bjt,"I'm new to (Tetra) dualies. I'm going for this set, pretty basic, but good enough?",2022-10-16 06:11:43,Rockin_Otter,https://i.redd.it/4sxcyrxb04u91.png,13,,No,42
+13mxtiz,"Why is Ink Vac concidered one of, if not, the worst special in the game?",2023-05-20 15:24:23,Monstertim1,https://i.redd.it/pljoxqry701b1.jpg,15,,No,37
+xtuj5l,Rate my Hydra Splatling Build.,2022-10-02 17:30:07,Pinstar,https://i.redd.it/lok0gmhigfr91.png,29,,No,42
+lncujm,Any ideas on how to improve my setup? Is all the main power up people seem to love running really necessary? Is all of it I'm running really necessary?,2021-02-19 10:35:15,Scarlet_slagg,https://i.redd.it/xxlp6ud0xei61.jpg,16,,No,41
+lxzzsh,IDK if this is common knowledge but if you dodge roll at any point with any dualie mid jump you fast fall.,2021-03-05 00:48:28,Eternal2401,https://www.reddit.com/r/SplatoonMeta/comments/lxzzsh/idk_if_this_is_common_knowledge_but_if_you_dodge/,15,,No,39
+1e16ld7,I take y’all’s advice one time and this is what happens,2024-07-12 02:34:29,PheonixGalaxy,https://i.redd.it/z5xsvla620cd1.jpeg,11,Used to have tenacity on my hat and ink saver (main) on my shoes. Anything else I should change? About my shirt and shoes?,Sí,38
+muqlbp,"Shooter tier list (5.4.0, Zones)",2021-04-20 13:42:24,waluigismashedme,https://i.redd.it/zh0klt931cu61.jpg,31,,No,35
+mnn651,"5.4.0 Dualies tier list (ordered, Zones only)",2021-04-09 18:12:02,waluigismashedme,https://i.redd.it/ozy186u5v6s61.jpg,13,,No,36
+g4vo6q,what weapon would be good with this set?,2020-04-20 16:12:44,geosplat,https://i.redd.it/zn79was3zzt41.png,15,,No,35
+y19hvi,"Jr ninja build for all gamemodes, double splat bomb when LDE is active",2022-10-11 13:46:21,QWE0071,https://i.redd.it/7044kjtbi6t91.png,15,,No,36
+xj0x6k,Hydra/Heavy Splatling -- What abilities to focus on?,2022-09-20 06:14:54,mrmivo,https://www.reddit.com/r/SplatoonMeta/comments/xj0x6k/hydraheavy_splatling_what_abilities_to_focus_on/,12,"Trying to learn the splatling class weapons. I believe Hydra is the best choice here, but have been told by a splatling-using streamer and their chat that Heavy is the better pick for learning (please correct this if this wrong), so that is my first stop.
+
+I'm trying to figure out what the best loadout for abilities is. Run and swim speed mains seem like essential picks, but what else? How much swim/run speed do I want? Coming from Splattershot and Tri-Slosher, the movement speed with splatlings takes some time getting used to! What other subs or mains would be good?
+
+Is there a point in Ink Saver (M) or Ink Recovery?
+
+Thanks for any pointers!",Sí,35
+nf33su,What could I be doing better as an anchor (splatling)? - Splat Zones (S+0),2021-05-18 06:20:28,an_angry_beaver,https://v.redd.it/k5ornsv6mtz61,10,,No,34
+mhzilx,Is this a decent all around build for most weapons? I want to have a build that I can wear on multiple weapons when not playing super competitive,2021-04-01 16:50:28,Vcev-,https://i.redd.it/4ele6xrbdlq61.jpg,20,,No,34
+jz1xpq,What do you think about my Enperry Dualies set? What would you do differently?,2020-11-22 19:40:23,ELIMINADO,https://i.redd.it/o6xtmkg4hu061.png,16,,No,34
+ipqtn3,"Played a ton of Splatoon 1, looking for an intro to Splatoon 2",2020-09-09 22:33:57,ELIMINADO,https://www.reddit.com/r/SplatoonMeta/comments/ipqtn3/played_a_ton_of_splatoon_1_looking_for_an_intro/,10,"I played lots of Splatoon 1 back in the day and I'm looking to get into comp Splatoon 2 and I've got a few questions: What should I try if I solo-mained aerospray in 1, is having 4 of the same perk on one clothing item actually useful or just a flex, where can I find a weapon, bomb, ultimate/special/whatever-they're-called tierlist, where can advanced strategy guides for certain maps and modes, and can somebody give me a rundown of basic comp knowledge for this game? Sorry about all the questions and thanks in advance!",Sí,33
+b8rvtu,4.6 update patch notes,2019-04-03 01:37:14,QWE0071,https://www.reddit.com/r/SplatoonMeta/comments/b8rvtu/46_update_patch_notes/,13,"https://docs.google.com/document/d/1Uo-deKcxUTKFIdkxYhYcI1dtGLxZQmfI16jcam_mLC0/edit
+
+thank you to u/Fyreboy5_ for making the patch notes!
+
+""Keep in mind that I may get these wrong, so take it with a grain of salt.""
+
+
+Mains |
+---
+
+Sploosh-o-matic
+
+* Increased acceleration while swimming in ink, reaching max speed faster
+
+Splattershot Jr.
+
+* Reduced ink consumption by about 14%
+
+Aerospray
+
+* Increased painting radius of shots themselves
+
+.52 Gal
+
+* Increased minimum damage from 26.0 to 30.0
+
+N-ZAP
+
+* Increased painting radius of droplets by about 6%
+* Increased the effectiveness of smaller amounts of Main Power Up (Larger amounts relatively unchanged)
+
+.96 Gal
+
+* Increased minimum damage from 31.0 to 35.0
+
+Luna Blaster
+
+* Reduced ink recovery lag after firing by 5 frames
+
+Inkbrush
+
+* Reduced rate damage falls off
+* Main Power Up increases ink coverage while rolling, in addition to previous effect
+
+Octobrush
+
+* Main Power Up increases ink coverage while rolling, in addition to previous effect
+
+E-liter 4K / E-liter 4K Scope
+
+* Increased damage dealt to Splat Brella shields by about 17%
+* Increased damage dealt to Undercover Brella shields and Tenta Brella shields by about 20%
+* Increased damage dealt to Bubble Blower bubbles by about 23%
+* Increased damage dealt to Booyah Bomb armor by about 4%
+* Increased damage dealt to Splash Wall by about 10%
+
+Heavy Splatling
+
+* Increased movement speed while charged by about 3%
+* Increased movement speed while firing by about 6%
+* Increased painting radius of droplets by about 7%
+
+Splattershot Pro 
+
+* Reduced the effect of Main Power Up
+(Amount of gear to reach 49.9 damage is reduced from 3.1 power to 3.9)
+
+
+
+
+
+
+Subs |
+---
+
+Curling Bomb
+
+* Has reduced ink recovery lag depending on how long it’s held, at max of 15 frames less
+
+
+
+Specials |
+---
+
+
+Curling Bomb Launcher
+
+* Improved ramping of bomb distance when holding down the button
+
+Bubble Blower
+
+* Increased radius of when bubble touches the ground by about 8%
+* Reduced the rate of launching bubbles while standing up by about 5 frames
+* Increased the effectiveness of small amounts of Special Power Up
+
+Sting Ray
+
+* Enemies marked with the Thermal Ink effect will no longer be visible through walls while firing
+
+
+
+
+**Abilities** | 
+---
+
+
+Ink Resistance Up
+
+* Reduced negative effects of jumping in enemy ink
+* Reduced negative effects of walking in enemy ink
+
+Haunt
+
+* Effect now lasts until game ends
+(Opponent splatted will remove effect)
+* Can now affect all enemies
+(Splatted by a different enemy will still have the original enemy affected)
+
+
+Special Points |
+---
+Splattershot
+
+* Sp Points: 200 -> 190
+
+Classic Squiffer
+
+* Sp Points: 180 -> 170
+
+Tri-Slosher Nouveau
+
+* Sp Points: 180 -> 170
+
+Ballpoint Splatling Nouveau
+
+* Sp Points: 230 -> 220
+
+Dapple Dualies
+
+* Sp Point: 180 -> 170
+
+Dapple Dualies Nouveau
+
+* Sp Points: 180 -> 170
+",Sí,38
+10e321r,So is NS dead?,2023-01-17 04:41:31,Slot-Machine-Addict,https://i.redd.it/c81e8jyrqkca1.jpg,15,,No,35
+y4r5hj,I’m on the goo bandwagon,2022-10-15 15:43:32,ELIMINADO,https://i.redd.it/epk3bphopzt91.jpg,10,"This is a fun build. I’ll prob swap out spu for sqj or ism. Would be nice to get two torpedo throws but that would take two mains of sub saver.
+
+Any suggestions?",Sí,37
+xai8qz,"Seeing as there is not any data on this yet, what effect on Splatoon 3's Special Power Up have on specials have you noticed so far? Experiment around with if you have enough gear if you are willing enough to help (Thank You!). I am trying to compile test data.",2022-09-10 06:39:23,theulticobia,https://www.reddit.com/r/SplatoonMeta/comments/xai8qz/seeing_as_there_is_not_any_data_on_this_yet_what/,24,"If i know at least what the effect on the special is, I can go from there. I am also interested in Sub Resistance Up, & Intensify Action. One thing at a time though.",Sí,33
+os83kr,vTent build. Thoughts?,2021-07-26 21:05:53,Ravioli_VII,https://i.redd.it/59qs9jokgmd71.png,15,,No,37
+koz1gc,Opinions on my Fresh Squiffer build?,2021-01-02 15:13:28,oh-lawd-hes-coming,https://i.redd.it/hfvsby1wqx861.jpg,15,,No,33
+15uvsj2,Why isn’t Eleiter 4k considered a top tier anymore despite the map design still being bad,2023-08-18 20:44:58,Msc_8517,https://i.redd.it/97f973ttkxib1.jpg,11,,No,34
+y92lud,"Rate my builds, I'm pretty happy with them but absolutely open to suggestions. (Flingza, Hydra, Explo, Machine)",2022-10-20 16:19:32,CreepyStepdad,https://i.imgur.com/PV3obMo.jpg,33,,No,33
+xg8rr5,S3 Dualie Squelcher Gear?,2022-09-17 01:19:00,Ritzy_Business,https://i.redd.it/f83inamf3do91.jpg,25,,No,34
+wkzm8b,Some of my thoughts on the Splatoon 3 direct,2022-08-10 14:59:20,ELIMINADO,https://www.reddit.com/r/SplatoonMeta/comments/wkzm8b/some_of_my_thoughts_on_the_splatoon_3_direct/,10,"I'm only talking about the 4v4 gameplay in Splat 3. Nothing related to quality of life features, single player, Salmon Run, or cosmetic options.
+
+**New Stages:**
+
+* The new stages look fine. I think Nintendo has started to hit their stride on stage design to not go too far on gimmicks as they can absolutely ruin the functionality. Case in point, Wahoo and Shellendorf.
+* Museum, Hammerhead, Mahi Mahi, and Flounder are all confirmed to come back. Those were, in my opinion, the best stages in 1 and that's great they're returning. Though I'm not sure I like that they removed the grates in Hammerhead.
+* I like that Inkblot, Sturgeon, and MakoMart are returning. But Wahoo??? Removing the timed bridge into mid would've made this map so much better, but they didn't even do that it seems.
+
+**Main Weapons:**
+
+* I don't know how to feel about Stringers, to be honest. The OHKO on a full charge is nice. It seems to paint decently. But I will only be able to tell with time how it competes with Chargers.
+* Splatanas are... interesting. I think with the charge-into-OHKO mechanic looks cool. But I worry it's going to be countered extremely easily by Dualies and the Squid Roll.
+* Single Player showed Blaster still having Jump RNG, but it doesn't look as bad. Hopefully Range has none.
+* At 21:42, the Heavy Splatling appeared to have virtually no ground-fire RNG. A nice buff for the weapon.
+
+**Special Weapons:**
+
+* New Killer Wail looks good. Kills pretty fast. That's all I can say.
+* Tacticooler is a really cool rework of Ink Armor from 2. It'll probably be a nightmare trying to get value from it in Solo Queue but for competitive play I'd say there's potential.
+* Wave Breaker doesn't look very strong. I think they should make the tag-lines expand faster.
+* Reefslider looks REALLY cool, and a very interesting successor to Splashdown. But like Splashdown, I worry how easily it's going to be countered as time goes on though.
+* Tenta Missiles are back, but I don't think they're going to be *that bad.* They'll probably still be good, especially if you pair it with something like Zipcaster. The specials in this game appear to be overall stronger than in 2 and with the new mobility options I think it's safe to say they won't be as broken here.
+* Ultra Stamp is back. Nothing to say about that, really.
+* Inkstorm is back, but we don't get to see how much it paints. I would like to see them greatly shorten the cooldown period before a user can charge them again.
+* Booyah Bomb is back, and I think it could still be good. It's one of the best designed specials in 2. But it's strange that it's in this game with the Triple Inkstrike. And from the one scene we saw it in action, it doesn't appear to paint at all.
+* I don't believe it's a bad idea to bring back Inkjet in this game. But if it wants to compete with the other specials in 3, they need to buff it. I believe making it as good as it was at the start of 2 would be fair.
+
+**Kits (I won't be talking about ones that were revealed in previous trailers):**
+
+* Splat Dualies with Suction Bomb + Crab Tank. Basically a successor to its Kensa kit in 2. This is a good one. And with the absence of Damage Up weapons countering it, they have a chance to shine again. 
+* Splat Roller with Curling Bomb + Big Bubbler. The sub already pairs well with the main weapon, and I believe that this survivability special would compliment it as a weapon that likes to shark.
+* Glooga Dualies with Splash Wall + Booyah Bomb. A perfect kit for the main weapon, and v52 is already confirmed to have Splash Wall + Killer Wail so there won't be one that blatantly outclasses the other.
+* Splattershot Jr. with Splat Bomb + Bubble Shield. No surprise. Jr. can only be as good as the special its attached to, so we shall wait and see.
+* Sploosh with Curling Bomb + Ultra Stamp. Not bad. It compliments the main weapon's rat-oriented playstyle.
+* Splash with Burst Bomb + Crab Tank. That will be strong.
+* Aerospray with Fizzy Bomb + Reefslider. Main weapon's extremely weak so it likely won't break any grounds but that kit interests me.
+* N-Zap with Suction Bomb + Tacticooler. It's a successor to its '85 kit from 2. It'll likely be strong, but also like its predecessor a really boring weapon too.
+* .96 Gal has Sprinkler + Vacuum. Looks decent.
+* Jet Squelcher has Hit Marker + Vacuum. Not bad but probably will be outclassed.
+* Luna Blaster has Splat Bomb + Zipcaster. Splat Bomb is perfect for the main weapon and as a short range slayer it'll synergize well with the special.
+* Splat Brella has Sprinkler + Triple Inkstrike. If they buff the Sprinkler's paint, it'll be good.
+* Tetra Dualies has Autobomb + Reefslider. If Reefslider is good, then this will be REALLY strong.
+* Splatana has Torpedo + Ultra Stamp. It's a kit.
+* Heavy Splatling has Sprinkler + Wavebreaker. Underwhelming.
+* Dualie Squelchers are still the replacement for Dual Squelcher it appears, and it also has Wavebreaker.
+* E-Liter has Wavebreaker
+* Hydra Splatling has Booyah Bomb. It'll be good for the weapon as a survivability option, like it was on Heavy Remix. Nothing else I can say.
+* Flingza Roller still has Tenta Missiles.
+* Sloshing Machine might have Inkjet. The character that is always seen holding the Machine was also using the Inkjet in its presentation.
+* If you look closely, Undercover Brella has Inkstorm.
+* Gold Aerospray has Booyah Bomb.
+
+**Abilities:**
+
+* No Damage Up. Thank God.
+* If Intensify Action benefits the user for the entire duration of the game, it will be good. Perhaps broken.
+* Run Speed Up looks way stronger than it did in 2.
+
+**Other Changes:**
+
+* The new Checkpoint system in Rainmaker is a necessary rework for the mode in my opinion, especially for Solo Queue.
+* Clam Blitz now only requires 8 clams to make a football. That's a good change, it will make the mode WAY less stall-heavy.",Sí,33
+m4b31b,How is my set for the tentatek splattershot?,2021-03-13 17:37:31,Sx_4d,https://i.redd.it/unyl2kbe0um61.jpg,21,,No,30
+lqylcz,Are darker skin tones a competitive disadvantage?,2021-02-24 00:45:47,Eternal2401,https://www.reddit.com/r/SplatoonMeta/comments/lqylcz/are_darker_skin_tones_a_competitive_disadvantage/,15,"Since the human eye is more sensitive to contrast, especially with peripheral vision, and darker skins seem to stand out more in the middle of the game's bright colorful ink, should competitive players consider optimal cosmetic tweaks for camouflage? I'm genuinely sorry if this question is dumb or offensive but I just can't stop wondering.",Sí,37
+jvrokh,My Planned Loadout for the Fresh Squiffer. Thoughts?,2020-11-17 11:49:55,Bookworm2818,https://i.redd.it/65vai9rmgsz51.jpg,11,,No,35
+13hfwv0,Just got this from Salmon Run: Would it be worth adding a final Special Power Up?,2023-05-14 16:00:48,IcyOrio,https://i.redd.it/wrgg5j90ltza1.png,13,,No,32
+z6znxn,All Chill Season Weapons Revealed,2022-11-28 15:39:07,Hitzel,https://www.reddit.com/r/SplatoonMeta/comments/z6znxn/all_chill_season_weapons_revealed/,15,"I will update the new weapon kits as their full kits are revealed/discovered.
+
+I've organized them based on if they seem to have the potential to be viable in competitive.  Do you agree?  I think a lot of it comes down to what balance changes take place as these release.
+
+&#x200B;
+
+**New Weapons:**
+
+[Splattershot Nova](https://twitter.com/LeanYoshi/status/1597760700373696512)
+
+* Point Sensor + Killer Wail
+
+[Big Swig Roller](https://twitter.com/LeanYoshi/status/1597760700373696512)
+
+* Wall + Ink Vac
+
+[Snipewriter 5H](https://twitter.com/LeanYoshi/status/1597760700373696512)
+
+* Sprinkler + Tacticooler 
+
+&#x200B;
+
+**Potentially viable in competitive?**
+
+[Tentatek Splattershot](https://twitter.com/LeanYoshi/status/1597760700373696512) 
+
+* Splat Bomb + Tri Strike
+
+[Custom Splattershot Jr.](https://twitter.com/SplatoonNA/status/1597228951906447368)
+
+* Torpedo + Wavebreaker
+
+[Forge Splattershot Pro](https://twitter.com/SplatoonNA/status/1595779342952550403)
+
+* Suction Bomb + Booyah Bomb
+
+[Slosher Deco](https://twitter.com/SplatoonNA/status/1594692260305960961)
+
+* Angle Shooter + Zipcaster
+
+[Zink Mini Splatling](https://twitter.com/SplatoonNA/status/1596141765027069952)
+
+* Toxic Mist + Bubble
+
+[Carbon Roller Deco](https://twitter.com/SplatoonNA/status/1597228874391322624)
+
+* Burst Bomb + Inkzooka
+
+&#x200B;
+
+**Unlikely to be viable in competitive?**
+
+[Inkbrush Nouveau](https://twitter.com/SplatoonNA/status/1595054548191956997)
+
+* Inkmine + Ultra Stamp
+
+[Aerospray RG](https://twitter.com/SplatoonNA/status/1594692183671480321)
+
+* Sprinkler + Booyah Bomb
+
+[Luna Blaster Neo](https://twitter.com/SplatoonNA/status/1596141710530445313)
+
+* Fizzy Bomb + Ultra Stamp
+
+[Dapple Dualies Noveau](https://twitter.com/SplatoonNA/status/1595054626617044993)
+
+* Torpedo + Reefslider",Sí,35
+xwguju,i know i look a bit insane but i can explain,2022-10-05 17:31:11,WhaleWithGingerAle,https://i.redd.it/cv3flze7q0s91.png,12,,No,34
+38fb2j,Mega friend thread,2015-06-03 20:55:32,Coraldragon,https://www.reddit.com/r/SplatoonMeta/comments/38fb2j/mega_friend_thread/,194,"Post here to gather people to strategize with or have silly games. For those recruiting for specific clans/events, please make a separate post.
+
+Please mention your NNID, prefer method of communication, and when you normally play (or just add everyone and see who sticks :P). Be sure to check the friend icon later (should be blinking with invite). Sometimes it is hard to notice.
+
+To play with a friend in Turf War, someone has to be in a match and then you will join them in the next game. For Squad battles, someone makes the room and you can join in.
+
+**Free free to join or add to our voice chat servers [here](https://www.reddit.com/r/SplatoonMeta/wiki/servers).**",Sí,32
+1c80g7f,Tips?,2024-04-19 15:59:34,ELIMINADO,https://i.redd.it/b3sl10n8lgvc1.jpeg,13,"Been trying to lock into heavy edit as my new main and I’m working pretty comfortably with this build. If anyone’s got any changes for any abilities that might work better, then I’m all ears",Sí,34
+num60m,Any thoughts on what I should change so that I can make this build better? (Kensa Splattershot Jr.),2021-06-07 20:06:57,Wooper3303,https://i.redd.it/t8uxjtcghw371.jpg,10,,No,32
+mx2i0f,Toxic Mist is criminally underrated.,2021-04-23 19:00:37,The_Bl00per,https://www.reddit.com/r/SplatoonMeta/comments/mx2i0f/toxic_mist_is_criminally_underrated/,21,"At first I was told it was a bad sub weapon so I just thought it was, but after actually using it it's actually really good. I'm a Splash main and combine the mist with your perfect shot accuracy, and you will literally never miss. If you throw mist on someone you can still strafe around and be a pain to hit but they can't, giving you a huge advantage(unless they have Tmist too, then you can't strafe either so it just kinda sucks for both people). The only thing is that it kinda sucks against backlines. If you have lethal bombs and chuck it at a Hydra Splatling they have to swim away from the bomb, lose their charge, and will possibly be forced to move to a dangerous spot to get out of a really dangerous spot like the blast zone of a lethal bomb. If I chuck toxic mist at a charged Hydra Splatling It'll just fire anyway and won't really care.",Sí,30
+mfp3i2,"RM splatling, is it good ?",2021-03-29 13:02:33,qazZ__,https://i.redd.it/mdyqhm8vtyp61.jpg,14,,No,33
+ih9aca,Is Brella considered a frontliner?,2020-08-26 22:45:54,jusbecks,https://www.reddit.com/r/SplatoonMeta/comments/ih9aca/is_brella_considered_a_frontliner/,27,Is it a slayer option?,Sí,36
+fp164p,Slayers in splatoon explained,2020-03-25 23:56:05,geosplat,https://www.youtube.com/watch?v=KEBOqzQvdXQ,34,,No,30
+z1yc03,3 New Chill Season Kits Revealed,2022-11-22 16:45:05,Hitzel,https://www.reddit.com/r/SplatoonMeta/comments/z1yc03/3_new_chill_season_kits_revealed/,18,"**Inkbrush**:  [Ink Mine + Hammer](https://twitter.com/SplatoonNA/status/1595054548191956997)
+
+**Dapples**:  [Torpedo + Reefslider](https://twitter.com/SplatoonNA/status/1595054626617044993)
+
+**Aerospray**:  [Sprinkler + Booyah](https://twitter.com/SplatoonNA/status/1594692183671480321)
+
+**Slosher**:  [Angle Shooter + Zipcaster](https://twitter.com/SplatoonNA/status/1594692260305960961)
+
+\----
+
+The response to these kits have been overwhelmingly negative among competitive players who want new weapons to have competitively viable kits.
+
+There is some debate over Slosher Deco as well ─ does the performance of Stamper indicate that a Slosher with Zipcaster will be worth using despite not having a sub?
+
+What do you think?",Sí,31
+xpsd4h,What do you think it looks like the strongest weapons in the game (3) are as of now?,2022-09-27 20:53:47,_JIBUN_WO_,https://www.reddit.com/r/SplatoonMeta/comments/xpsd4h/what_do_you_think_it_looks_like_the_strongest/,16,"I’m interested to see what people think since the meta is very much still developing. Personally, I’ve noticed these to be particularly strong:
+
+• Sloshing Machine - I don’t think I need to explain this one.
+
+• Splash-o-matic - The weapon itself is *pretty* good, but the kit makes it ungodly. I’ve ran into way too many teams running two or more of these and spamming crab tank as much as possible, which was especially obnoxious in tricolor.
+
+• Splattershot/Hero Shot Replica - Once again, the kit is what elevates this to insanity. Suction bombs and trizooka make this one a force to be reckoned with, and i’ve honestly had more luck with this thing than with any of the other weapons I play despite having much more experience with those.
+
+•Pretty much all of the dualies - The special changes on the dualies make them even more formidable. Dapples were already one of the most potent slayer weapons in 2 but now they have *Tacticooler* of all things to buff the entire team and effectively cheat death in the process. Tetras, too, were already solid in 2, but held back by the presence of Splashdown; replacing this with the new Reefslider definitely brings more potential out of them. And Splats, of course, got Crab Tank. Along with suction bombs. Some of these kits are just madness, huh.",Sí,32
+mq4ccr,Good Build For Vanilla Inkbrush?,2021-04-13 15:16:22,KeenTheBot,https://i.redd.it/uuhzfv7hjys61.jpg,16,,No,33
+m5mvkk,Gear recommendations?,2021-03-15 15:15:10,Loxe77,https://i.redd.it/8aghxmmtk7n61.jpg,16,,No,30
+gfpyja,Rate my Build,2020-05-08 09:26:54,VYTHG,https://i.redd.it/5dvyupx1fix41.png,10,,No,29
+1b0z1t6,"I like the splat roller because I like being a supporty type character. How can I make it ""good?""",2024-02-27 01:23:17,StaxRL,https://www.reddit.com/r/SplatoonMeta/comments/1b0z1t6/i_like_the_splat_roller_because_i_like_being_a/,12,"Pretty much the title. I've seen a couple videos about how to use swim speed and squid ninja to attack and move around, but I know nothing about how the additional abilities of gear works. Like how do I unlock all 3 slots in gear, and then how do I get exactly what I want on them? ... and what DO I want?
+
+Very casual player, run the esports program at the high school, trying to learn the game to help the kids not go 0-for-the-season 😅",Sí,30
+wzcftw,Did they neef the Hydra or am I rusty AF?,2022-08-27 20:18:07,teh_201d,https://i.redd.it/vawne5qzdbk91.jpg,11,,No,28
+mp6x12,What could I be doing better with K sloshing machine and what am I doing wrong? (S+0),2021-04-12 04:39:26,an_angry_beaver,https://v.redd.it/cp5w033j8os61,19,,No,29
+lxhj8z,"Rate my red-themed slosher build! It's working well for me so far (Average comp rank being S+4), but I'm just a casual player so it might actually be crap idk.",2021-03-04 10:25:59,Eggy-Devil,https://i.redd.it/ejooym57nzk61.png,10,,No,29
+lub2pz,What are your favorite professional Splatoon 2 players ?,2021-02-28 08:38:17,qazZ__,https://www.reddit.com/r/SplatoonMeta/comments/lub2pz/what_are_your_favorite_professional_splatoon_2/,24,"Mine are Kaji, Okura, Rentana, RiuKugel, Prior, Tarbou, Chokopero and Chikashi",Sí,30
+le0v9l,Need help with my forge splattershot pro build. I'm not sure what head gear abilities I should get,2021-02-06 16:24:14,ordinary_chair,https://i.redd.it/pfugp1uevvf61.jpg,19,,No,29
+kigfnw,Opinions on my Splattershot Pro Build?,2020-12-22 23:07:15,WilliamThe1st,https://i.redd.it/2shuqb6elt661.jpg,10,,No,29
+3hylra,List of Competitive Splatoon Streamers,2015-08-22 12:02:51,HankTheWu,https://www.reddit.com/r/SplatoonMeta/comments/3hylra/list_of_competitive_splatoon_streamers/,14,"Hiya!  Some squids were having trouble finding high-level competitive Splatoon streamers so I thought I'd compile a list for all of you. I hope this helps anyone fiending for some competitive Splatoon.
+
+---
+
+[ThatSrb2DUDE](http://www.twitch.tv/thatsrb2dude) - In my opinion, DUDE is the best player on this list (no offense to anyone else). I just don't know how he does it. This man is just a monster at Splatoon. He is also super entertaining to watch. I **highly** recommend checking out his streams, if you haven't already. 
+
+[LuxLuxora](http://www.twitch.tv/luxluxora) - Another very entertaining streamer.  She has a very personable personality and it translates very well to her streams. Of course, she is also very competent at the game.
+
+[FLC](http://www.twitch.tv/fiveleafclover) - FLC's streams skew more towards informational than entertaining. He does an amazing job of explaining his thought process behind his decisions. Out of everyone here, FLC's streams have been the most helpful for me as a player looking to improve. 
+
+[Kaysick](http://www.twitch.tv/kaysick) - Kaysick is the Any% Splatoon WR holder. He's a really chill guy that seems to be naturally great at this game. His streams are definitely super fun to chill in. The coolest thing about Kaysick's streams is that he occasionally analyses viewer gameplay. This is definitely the place to go if you want more direct help.
+
+[Mrpmri](http://www.twitch.tv/mrpmri/)
+
+[LilSoundDj](http://www.twitch.tv/lilsounddj)
+
+[Boothebun](http://www.twitch.tv/boothebun/)
+
+[Ugliestpieceofbread](http://twitch.tv/ugliestpieceofbread/)
+
+[Vespher](http://www.twitch.tv/vespher)
+
+[Giantpanther](http://www.twitch.tv/giantpanther)
+
+[yuulka](http://www.twitch.tv/yuulka)
+
+[splattalk](http://www.twitch.tv/splattalk)
+
+---
+
+Let me know if I missed any other Twitch streamers! Stay fresh~
+
+",Sí,29
+13j5kl5,"I know the trailer just came out, but, how good do you think the Painbrush will be?",2023-05-16 13:41:12,Monstertim1,https://i.redd.it/5mmeimajn80b1.jpg,17,"https://youtu.be/B6mLdx4sVKw
+
+This is the trailer I'm referring to.",Sí,29
+112dw15,Thoughts on my Junior build?,2023-02-14 19:30:01,SuitFinancial2209,https://i.redd.it/h1qce8aty8ia1.jpg,14,,No,30
+xsf48p,How do people set up builds so quickly?,2022-09-30 22:53:15,ELIMINADO,https://www.reddit.com/r/SplatoonMeta/comments/xsf48p/how_do_people_set_up_builds_so_quickly/,13,"Am I missing something? How are people able to farm chunks & coins quickly enough for solid builds this early into S3?
+
+Especially while playing ranked, I feel the need to use gear with maxed out slots so I don’t let down teammates which slows my progression significantly. Are others just grinding turf war with empty slots?",Sí,28
+yija49,What would you change with this WIP? (more info in comments),2022-10-31 17:53:34,azurfall88,https://i.redd.it/c3dnycfz08x91.png,20,,No,28
+xhan6l,Opinions on the REEF-LUX 450?,2022-09-18 07:58:09,mrmivo,https://www.reddit.com/r/SplatoonMeta/comments/xhan6l/opinions_on_the_reeflux_450/,13,"What are your thoughts on the REEF-LUX 450 in a ranked environment and in general?
+
+I've been maining Splattershot, but spent some time with this bow and I fundamentally like it, even though I perform poorly with it. I do feel it forces me to improve, though, as it seems fairly unforgiving. I'm fine with sucking for some time while learning the weapon.
+
+It seems like it might do well in a support role, but many of you here have a lot more experience than I do and can judge things better. If you think it has potential, how would you build around it?",Sí,29
+xc6y4k,[Splatoon 3] Need help picking a weapon,2022-09-12 08:06:42,Dama624,https://www.reddit.com/r/SplatoonMeta/comments/xc6y4k/splatoon_3_need_help_picking_a_weapon/,13,"Hey all, I've been having trouble finding a weapon to pick.
+
+I'm looking for a weapon that:
+
+1. primarily skirmishes but can slay fairly decently
+2. good at covering turf
+3. isn't a shooter
+
+Ideally I'd also like a special that can be used for space control or buffing (cooler, wavebreaker, storm, etc.) but honestly I can't seem to find anything that fits the 3 above (especially number 3) to begin with so I'll take anything.
+
+I thought the brella would be the answer but the specific choice of sub makes it pretty difficult for me to actually slay anything at all.",Sí,29
+jqcp8b,Do heavyweights still benefits from their swim speed effect more than lightweights and midweights if they have the rainmaker?,2020-11-08 14:36:03,Twiniki,https://www.reddit.com/r/SplatoonMeta/comments/jqcp8b/do_heavyweights_still_benefits_from_their_swim/,11,"If an heavyweight with the rainmaker has 57 ability points of swim speed up, will it go faster than a midweight with the rainmaker who has as much ability point as the heavyweight?",Sí,29
+ikitql,Haven't Played in Years; Can Someone Fill Me In On Some Things?,2020-09-01 11:51:33,Dat_Kirby,https://www.reddit.com/r/SplatoonMeta/comments/ikitql/havent_played_in_years_can_someone_fill_me_in_on/,15,"Hey all. I'm an on/off Splatoon player who tends to take it *a little seriously* when I am actually playing. Back when I last played the game, they hadn't even added all those new special abilities like the big hammer and the booyah bomb (which is an excellent idea by the way). It's safe to say that a lot has changed since I left. I was hoping one or a few of you guys could let me know what new things I should be keeping in mind and help me with the more specific questions that follow.
+
+First off, I main Splattershot. Is that base kit still viable, or should I try to switch to something else? Kensa Splattershot Pro was piquing my interest somewhat, but I'm a little turned off by the slow movement while firing. I'm interested in any reccomendations, though.
+
+Second, I never really knew much about getting all the abilities I wanted on my gear. How can I get the abilities I want quickly, and what equipment is really powerful? 
+
+Thanks for helping me out, and have a nice day.",Sí,29
+gwiiv2,"Best ""meta ability""",2020-06-04 14:30:22,geosplat,https://www.reddit.com/r/SplatoonMeta/comments/gwiiv2/best_meta_ability/,17,"What I mean by meta is that they are either used a lot or are broken abilities
+
+[View Poll](https://www.reddit.com/poll/gwiiv2)",Sí,29
+3krrnx,"For this game's solo matchmaking to have any semblance of reason, you MUST lose points in S rank in squad battles, or gain NO points in squad battles EVER",2015-09-13 11:03:04,Ultramus,https://www.reddit.com/r/SplatoonMeta/comments/3krrnx/for_this_games_solo_matchmaking_to_have_any/,18,"I am a competitive splatoon player, most recently taking 1st place in the SCL tourney and 7th in Booyah Battle. I'm a member of the most competitive clan in this game and scrim regularly. I perform extremely well in 90% of my matches. My squad battle winrate is obscene.
+
+
+That all out of the way, I am still S rank, despite playing the game a ton and having the results to show I'm a top performing player. Previously, people talked about the matchmaking being hell in the mid tiers and people rightfully saying that if they were good, they would get to A+, this was largely correct, as many of us who were skilled made it to A+ no problem. It was also not a struggle getting to S. That said, right now, getting to S+ is as much a crapshoot as anything. Let's talk about what happened.
+
+
+Player Y is a B+ player in solo. He squads up with his S ranked teammates and gets carried to A+99, backs out and lucks into a win and now he is S 30, and he needs to lose *8* games to derank back into A+. Chances are he may win 1-2 of those games, and because it's +5 pts a win and -4 points per loss, luck of the draw will keep them in S *indefinitely*. If you've ever wondered why you have S ranked players going 0-8, 1-12, et cetera, it's because they simply have no idea what they are doing, they got carried to S and have stayed there despite their best efforts. I have had innumerable matches of >3 k/d, 10+ kills each match, spamming quick respawn on my gear and pushing the objectives as hard as possible, and I'll still lose. And then I see that 2 people on my team went wildly negative, and both of them have *rapid blaster*.
+
+
+I know that rank is meaningless, but this is simply not *fun*. When everyone aggregates to the rank it ruins the entirety of the ranked based matchmaking. The solution is simple, you should gain and lose points based on squad battle, and it should give you fewer points for wins. S+ should also extend to Squad Battle as well, to improve the matchmaking on that front.
+
+
+I don't know *why* splatoon ranking is so broken like this, but I feel like it needs to be addressed that it is fundamentally **wrong**, as it naturally inflates players rank in squads and is not harsh enough demoting people in solo once they have gotten S, and it subsequently ruins matchmaking for *both* queues. I hope they realize the error of their ways soon, because I'm almost done playing solo queue because of it.",Sí,28
+3hakjy,I made a Chrome extension that displays current and upcoming map rotations/modes,2015-08-17 08:22:41,o9k1,https://www.reddit.com/r/SplatoonMeta/comments/3hakjy/i_made_a_chrome_extension_that_displays_current/,17,"Edit: Firefox version available at the [Firefox add-ons page](https://addons.mozilla.org/en-US/firefox/addon/squid-thing/)!
+
+Both versions display localized battle modes/stage names for de, en, es, fr, and it.
+
+---
+
+Figured this would be useful for squids looking to play specific ranked battle modes, now that there are three in the rotation.
+
+It fetches data directly from Squid Ring (no third-party API access, but requires your NNID to be logged-in) and provides North American localization for the stages and battle modes.
+
+Here's a [preview](https://i.imgur.com/MHH2MkZ.gif) of the main attraction.
+
+Source is available on [github](https://github.com/kton/squidthing) and you can install it via [the Chrome web store](https://chrome.google.com/webstore/detail/squid-thing/acladlefcbpicihheonbnonmgdemeoco).
+
+The extension applies some client-side javascript/style sheet overrides for the localization/pop-up UI and adds a pop-up button for convenient access.
+
+I'm not entirely sure how map rotations will be displayed on Squid Ring during splatfests, so feel free to let me know if things splat!",Sí,27
+zu28x9,"What percentage of players would I be in(15%,10%,5%.)?",2022-12-24 05:01:46,404Doge_not_found,https://i.redd.it/4a0v62gikt7a1.jpg,12,,No,28
+yfmr7l,"Im trying to come up with ""universal"" ranked gear. Any thoughts?",2022-10-28 12:23:39,MeatBoyeR6,https://i.redd.it/unj5kvhphjw91.png,10,,No,28
+xp1ymf,Rate my Reef-lux build,2022-09-27 01:08:00,Breezyrain,https://i.redd.it/th2pd0d2xaq91.jpg,26,,No,28
+n5jhsi,How often and how long do you play Splatoon?,2021-05-05 16:06:02,an_angry_beaver,https://www.reddit.com/r/SplatoonMeta/comments/n5jhsi/how_often_and_how_long_do_you_play_splatoon/,22,"Do you play daily? A few times a week? When you play, how long is a session? Just curious. 
+
+I play almost every day for about 2-3 hours. I’m still trash though.",Sí,27
+lpqii2,N-ZAP '83,2021-02-22 15:18:01,ELIMINADO,https://www.reddit.com/r/SplatoonMeta/comments/lpqii2/nzap_83/,15,"I know what you're thinking. Yes, many consider it to be the worst one. Yes, in most if not all situations the armor variant is the preferable choice, and that's my best weapon. But after seeing the results of it in some tournaments (Kiver) and using the weapon myself, I think it deserves some looking into.
+
+I believe the weapon really does have a viable niche in Splat Zones on maps where it can easily farm its Inkstorm, such as Reef, Kelp Dome, Snapper, Musselforge, etc. If used to its fullest potential, the amount of map control the weapon can create is actually pretty insane. I've played on Zones maps where I was able to keep the map painted almost completely, leaving the opponents with very few options and if they tried pushing they would be weakened if not outright denied by my Inkstorm, and I  could easily follow through with killing them. 
+
+Sprinkler was once considered one of the best subs but is now one of the weaker ones due to the heavy reliance on bombs in this current meta, but that doesn't mean it's useless. Spamming sprinklers and shooting means you can easily charge your special in 10 seconds or less. I still would prefer a Splat or Burst Bomb but I find that it still helps a lot in 1v1s by being a distraction, affording you more time to shoot, and limiting your opponent's movement options. 
+
+So yeah, that's my opinion on the weapon. I wouldn't use it outside of a few maps in Zones but I really do enjoy the weapon in those circumstances. Feel free to discuss with me or offer any contrasting views.",Sí,27
+j4v6tr,Is this a okay jet Squelcher build?,2020-10-04 07:47:15,Accomplished_Pipe_74,https://i.redd.it/z43hzeo891r51.jpg,20,,No,28
+i8xiwv,Rate my gear for grinding ability chunks,2020-08-13 10:32:31,Berat0-0,https://i.redd.it/io3vu5e4zqg51.jpg,11,,No,28
+hbc8os,How to practice aim with tetras?,2020-06-18 10:40:43,ELIMINADO,https://www.reddit.com/r/SplatoonMeta/comments/hbc8os/how_to_practice_aim_with_tetras/,11,"I started using dark tetras recently, and it's been a pretty steep learning curve for me because I've never really used dualies all that much. Something I've been noticing is that I have trouble aiming while I'm dodge rolling, are there any good ways to practice this?",Sí,27
+grs82p,Looking to get into competitive as a Support player,2020-05-27 20:59:13,OnlyHereSometimes,https://www.reddit.com/r/SplatoonMeta/comments/grs82p/looking_to_get_into_competitive_as_a_support/,13,"Hey all! After the recent Splatfest I'm getting back into the game and learning the actual roles of competitive gameplay (which I never really knew before). I'm definitely a support player, with my main weapons being Dualie Squelchers and sometimes the NZAP. I don't have the best accuracy or reactions up close, so I like to provide pressure from a safer distance and back up my teammates going in. That said, I have a few questions:
+
+* What other weapons are good mid to long range support?
+* Does anybody use the Squeezer?
+* So far I'm running mostly MPU gear (after watching the Wadsm video on the Dualie Squelchers). Any other recommended gear?",Sí,25
+g1bxsq,Is this good gear and if bot what should i change 👍,2020-04-14 19:20:03,Kettle_on_mars,https://i.redd.it/isonjt553us41.jpg,10,,No,26
+fof6zd,How to make a competitive set in splatoon (I tried my best on it),2020-03-24 22:59:51,geosplat,https://www.youtube.com/watch?v=zLEBKCedrMM,10,,No,28
+fmodya,"Is this a good setup for these weapons? (also, plz rate my style)",2020-03-21 22:29:04,geosplat,https://i.redd.it/tuqf15nsq3o41.png,14,,No,26
+1fcwp66,"Splat 3 weapons Aggressive vs passive playstyle tier list (this is competitive splatoon, your 20 kill matches with an aerospray in A rank do not matter) let me know if i got anything wrong",2024-09-09 18:33:28,intense_doot123,https://i.redd.it/55rrku4putnd1.png,19,,No,26
+15jk5uk,ProChara's weapon tier list for patch 4.1. Thoughts ?,2023-08-06 08:16:57,Narrow-Bicycle6196,https://i.redd.it/01mkcxof8ggb1.jpg,37,,No,27
+ykjw4w,"No, surprisingly, you shouldn't run LDE on everything in Patch 1.2",2022-11-02 22:29:17,ELIMINADO,https://www.reddit.com/r/SplatoonMeta/comments/ykjw4w/no_surprisingly_you_shouldnt_run_lde_on/,20,"Howdy. Call me Paz.
+
+You don't need [to](https://youtu.be/vaMAuVGTDnI) [look](https://youtu.be/T4lXCvm6Y94?t=305) [hard](https://youtu.be/bZabqEcal_0?t=105) to find pros or any semi-competitive cephalopod calling for Last-Ditch Effort [nerfs](https://youtu.be/6wQeV_T8Kl8?t=349) or raving about the ludicrous 72AP it brings to a loadout for the low cost of one Main Slot. It currently dominates all discussion about builds as people will often ask ""Why no LDE?"" when looking at any build or explanation that doesn't at least consider the ridiculous ink efficiency value it provides.
+
+I'm by no means arguing that it isn't a strong ability, from an objective value stand point it absolutely is, but that the benefits it provides are something you have to consider on every headgear slot before everything else is overselling it.
+
+What I am going to put forward instead is that the weapon and kit LDE is on is a more important factor of what makes LDE good rather than the absurd value the ability brings to the table.
+
+**The Breakdown**
+
+Last-Ditch effort in Ranked/Anarchy starts activating the moment the enemy team is 50 points away from victory, scaling it's bonuses upward until the enemy team is 30 points away from victory. In Turf War it activates in the last 30 seconds of a match if you were curious, but the former is why the ability is the current center of attention. It's very likely you'll get value from it for a lot longer depending on when you start taking the L in a competitive map mode.
+
+At max bonus you get 24 AP (or just over 2.1) Ink Saver Main, Ink Saver Sub, and Ink Recovery Up **each**, this is where the ""72AP-more-than-a-loadouts-worth"" argument comes from. Even if you don't get the max bonus your opponents only need to be about 47 points away from victory to get your value back in the main slot across the three abilities or triple the value of a Main at 42 points.
+
+If that was hard to follow, the ability has been unchanged since it's buff in Splat2, Patch 4.7, so [the chart from the Splatoon wiki](https://splatoonwiki.org/wiki/Last-Ditch_Effort#Splatoon_2) underneath ""Splatoon 2"" still has an accurate break down of ability point per enemy's score.
+
+**The Analysis**
+
+Setting aside the obvious observation that ink efficiency abilities usually take a secondary role to other abilities in a well rounded loadout, with a few exceptions, let's engage with the argument that the sheer value from LDE is so attractive that other Main options needs to have a compelling reason to take the head slot. The value proposition brought by LDE counter acts the other intuitive argument people will make: ""Why would I want an ability that only activates when I am losing, just win 5head.""
+
+LDE has a similar dynamic as Quick Respawn, but in the macro perspective of a match in Splatoon; it's something of an insurance policy. If you were gonna win anyway, ink efficiency wasn't the reason. If something goes completely wrong, but your team stops the push just short of a loss, the bonus abilities may help stabilize and make the difference in bringing things back from behind.
+
+However, the latter point is what I want to hone in on. There's an intersection of ink guzzling but potent main weapon, combined with a lethal sub and powerful special that needs to be met to make LDE unequivocally worth it, and only just a consideration if you only have one or two of these factors in a weapon's kit.
+
+For example, the Ink Saver Main component isn't as useful on something like standard range shooters such as the Splattershot, .52 Gal or Splash-o-matic as they are generally regarded to be ink efficient with good play. The Ink Saver Sub component isn't going to be as useful on a weapon with a Sub that doesn't poke or can be spammed like Ink Mines, Squid Beakon, or Sprinkler.
+
+Let's take two extreme examples at both ends of the spectrum to further highlight my point. The Undercover Brella doesn't need any more people dunking on it, but makes an obvious example of how 72AP worth of ink efficiency couldn't hope to save it from being one of the weaker weapons in the game and a further liability in disadvantage state.
+
+Ink Mines aren't something that help you get in, zone, or harass the enemy team, but control the opposition on territory you already have, which really only covers advantageous game states and if we are charitably including theoreticals, neutral state. More shots from a weapon that has a slow time to kill even when at it's effective range means that the Ink Saver Main is really only useful to maintain paint up time. Paint that is in service to arguably the weakest special in the game, Reef Slider.
+
+On the flip side, and I wager most of you knew where this was going, we have a weapon that sits on the aforementioned intersection of powerful but inefficient Main weapon, spammable and lethally annoying Sub weapon, and incredible Special that you want to farm as much as possible.
+
+The Sloshing Machine's actions per ink and uptime go through the roof when you have max LDE bonus, whether you are zoning out the opposition with your [silly sloshing hit-boxes](https://twitter.com/Liar_178/status/1574075666483777536?s=20&t=ylhTnqyVk7Kuol3q4-P80Q) or safely spamming Fizzy Bombs to farm Booyah Bomb, it's got it all. LDE compliments the weapon so well that I believe it's solely to blame for the misconception that LDE should be ran on everything as it's basically the undisputed top tier of the current patch. The Sloshing Machine is a perfect storm of several competitive qualities that make it really strong, LDE not with standing, but that's a different conversation.
+
+**Conclusion**
+
+So what about the other weapons? The two examples I gave are clear cut, but does that mean that I think these are the only cases where you don't or do run LDE? LOL NO
+
+I ultimately want to encourage people to think twice about slapping LDE every which way. The popular consensus that it is a given in any build is so pervasive that it presently flattens discussion about loadouts in a system that I firmly believe is designed to compliment your play-style, support a novel idea, or provide an answer to gameplay scenarios.
+
+For fun however, I've made a [tier list](https://twitter.com/Pazizmx/status/1587963617827241988) with some loose notes about how amenable our current roster of weapons in patch 1.2 are to having LDE in it's loadout.
+
+Thank you for taking the time to read this, and would love to hear your thoughts. What I got right, what I got wrong, or if you want me to expand on something a bit more. Take care.",Sí,25
+xzedyx,"wanted help making a Splatana Wiper build, here's what i currently have",2022-10-09 06:21:43,windycoatl,https://i.redd.it/h0iatwnj3qs91.png,13,,No,25
+xs1z78,Thoughts on rounding out my Flingza build?,2022-09-30 13:54:28,ELIMINADO,https://i.redd.it/x39iefrd30r91.png,13,,No,26
+ov0pvy,"wip napples build, how is it? what should i change?",2021-07-31 04:26:23,shin_malphur45,https://i.redd.it/kw1tm21q6he71.png,11,,No,26
+n06ojl,Need to settle an argument. Is the Splash-O-Matic a good weapon?,2021-04-28 04:16:06,The_Bl00per,https://www.reddit.com/r/SplatoonMeta/comments/n06ojl/need_to_settle_an_argument_is_the_splashomatic_a/,12,"
+
+[View Poll](https://www.reddit.com/poll/n06ojl)",Sí,27
+lpxf2w,is this a good loadout im new too splatoon,2021-02-22 19:28:17,Luby_,https://i.redd.it/ae9jav4ry2j61.png,12,,No,26
+likdcp,My current setup for N-Zap '85. Any suggestions for improvement?,2021-02-12 20:48:04,Climbysrevenge,https://i.redd.it/i7fo02eyz3h61.png,11,,No,27
+jv1iks,"Is the Aerospray the worst weapon, or no?",2020-11-16 05:44:10,DynamoLord,https://www.reddit.com/r/SplatoonMeta/comments/jv1iks/is_the_aerospray_the_worst_weapon_or_no/,43,"I’ve been using the Aerospray RG lately. Please don’t hate me. Is it the worst gun in the game? I’ve been having moderate success with it. I find that compared to my usual Dynamo, I’m much harder to catch and can be a huge annoyance to the other team.",Sí,26
+gm1799,Is this a good set for Ballpoint Splatling Nouveau? (Or any splatling) I planned on putting run speed on my mask.,2020-05-18 13:12:32,GerstNowitzki,https://i.redd.it/lwqqh7jkwiz41.jpg,13,,No,26
+xl8d9u,Feedback on my Dualie Squelchers build? New to Splatoon 3 but I just used S2 guides and changed what was removed with stuff I heard was good,2022-09-22 17:56:38,_CactusJuice_,https://i.redd.it/jsn3ezyx7gp91.jpg,18,,No,25
+nc2n0m,How is my clear dapple class ? (First post here),2021-05-14 07:14:10,shin_malphur45,https://i.redd.it/abyixydpd1z61.jpg,15,,No,24
+lgf5t9,How do bad teammates get so high in ranked?,2021-02-09 22:24:22,MichaelTDM_lol,https://www.reddit.com/r/SplatoonMeta/comments/lgf5t9/how_do_bad_teammates_get_so_high_in_ranked/,25,"So we all hate it when we get bad teams in splatoon, my question is: how did they get to s+ and x, is there something I'm missing? Please tell me the ways.",Sí,26
+jlu0p2,"How natural is it to you checking the HUD on the top of the screen for information (such as who's alive and dead, who has their specials, etc)?",2020-11-01 01:17:36,jusbecks,https://www.reddit.com/r/SplatoonMeta/comments/jlu0p2/how_natural_is_it_to_you_checking_the_hud_on_the/,10,"
+
+[View Poll](https://www.reddit.com/poll/jlu0p2)",Sí,25
+jhbht5,Why is object shredder considered a good ability?,2020-10-24 16:07:54,jusbecks,https://www.reddit.com/r/SplatoonMeta/comments/jhbht5/why_is_object_shredder_considered_a_good_ability/,14,"I understand that it’s good against armor. But when I play solo Q, I feel like it’s too much of a gamble to run OS just on the off chance that maybe someone will have armor on the enemy team. And as a charger main, I honestly can pop baller fast enough to my liking (2 shots), sprinklers and beacons are the last of my concerns and... what else is OS good for again?
+
+Perhaps it’s cause I don’t know everything that the ability is good for, but I feel like it’s such an overrated ability...? I understand how it’s good in competitive, where sometimes you can almost be sure people will be running armor on their comp, but on solo...? 
+
+I feel like you can get so much more value from some other ability that it’s guaranteed that you’ll get use of it, instead of having an ability that if the other team doesn’t have armor or baller then it becomes literally useless.
+
+But since I keep seeing it in top charger mains’ builds in solo, I figured I should finally ask someone else who probably know better. Why should I be running OS?",Sí,24
+ibgmwb,Is Splatfest Meta allowed? I predict a landslide popular vote for Egg because nobody will give Chicken the time of day,2020-08-17 15:49:21,LegoRobinHood,https://www.reddit.com/r/SplatoonMeta/comments/ibgmwb/is_splatfest_meta_allowed_i_predict_a_landslide/,14,"I'm starting to feel a little lonely as a Team Chicken over here. 
+
+I have yet to find anyone willing to listen to a rational defense of the chicken. Looks like I'll have to make it to Chicken (a la) King to have any hope of getting sea snails (I know, I know. I went with my gut instead of my head.) 
+
+Admittedly I may have overcompensated with the length of this post, but I hope it at least makes for an enjoyable read: 
+
+[In Defense of the Chicken - Long](https://www.reddit.com/r/splatoon/comments/ib536s/in_defense_of_the_chicken_long/?utm_medium=android_app&utm_source=share)",Sí,24
+gvemac,Is Octo Shot a viable weapon?,2020-06-02 20:02:37,purplemalemute,https://www.reddit.com/r/SplatoonMeta/comments/gvemac/is_octo_shot_a_viable_weapon/,10,I’d like to get more serious about the game,Sí,25
+3gktr6,Its OK to think something is overpowered.,2015-08-11 10:43:19,CHAINMAILLEKID,https://www.reddit.com/r/SplatoonMeta/comments/3gktr6/its_ok_to_think_something_is_overpowered/,32,"And it needs to be OK to talk about it here.
+
+I think sometimes people don't know what terms mean. Overpowered doesn't mean its infallible, or unbeatable. It doesn't even mean that it doesn't take skill. In MKDS, snaking was OP, but that sure took skill. 
+
+I guess thats probably because OP tends to be used casually as a kind of salty slur. But that isn't how you use it when you talk about meta. 
+
+And its not just Overpowered, but Underpowered weapons, Broken mechanics, or any of that stuff that sometimes feels like its sensitive issues. But that sort of stuff is just going to be a part of when you discuss balance AT ALL! 
+
+Because splatoon isn't designed with all neutral stages, or neutral modes. Certain stages and modes are obviously designed to give clear favor to certain weapons, and that in particular leaves plenty of room to constructively talk about this stuff.
+
+
+I want to see more talk brought up involving Overpowered whatever. Not here in this topic, but when it comes up and its relevant. If you have something to say, say it, and we can talk about how it might be right or wrong.
+",Sí,27
+yk1chu,"I got really lucky and made the first gear without having to grind, but now I’m seriously considering the second…",2022-11-02 10:17:53,SauceCrusader69,https://i.redd.it/q978n2czjix91.jpg,12,,No,23
+y8mp49,"Dualie Squelchers build, what should I change?",2022-10-20 03:12:21,Ryeoreo2000,https://i.redd.it/gp3r2sb6ovu91.jpg,18,,No,23
+y4d3uc,What weapons DON'T need LDE?,2022-10-15 03:14:47,Exquisite_Poupon,https://www.reddit.com/r/SplatoonMeta/comments/y4d3uc/what_weapons_dont_need_lde/,17,"I never used LDE in Splatoon 2, but I've been using it on pretty much all of my builds after discovering how useful it actually is (the games do a pretty poor job at explaining what it does). But I'm sure it doesn't belong with *every* weapon. I've seen discussion that weapons without a lethal sub don't need it, but is that the determining factor?",Sí,25
+wzmfjl,How’s my build? What should I add/remove,2022-08-28 04:25:15,Mac_OS-X,https://i.redd.it/91a13dawsdk91.jpg,23,"Normally I like using the carbon roller, undercover sorella brella, and the aerospray mg",Sí,25
+nqmo8u,Custom Hydra build v2. Thoughts?,2021-06-02 14:10:19,retrospectively_,https://i.redd.it/ejg9tfp91v271.png,12,,No,24
+nasz0q,Anyone X-rank and over 25 years old?,2021-05-12 16:32:38,an_angry_beaver,https://www.reddit.com/r/SplatoonMeta/comments/nasz0q/anyone_xrank_and_over_25_years_old/,20," Some context: A goal of mine is to reach X-rank but I've been stuck in lower S+ and not advancing. I'm 28 years old and am starting to feel that I'm just too slow to react to be competitive. Although to be fair, my reflexes were never great at any point in my life. Perhaps it's an unfair comparison but I know most pro-gamers tend to be 25 or less. This makes me think that I'll never reach X-rank since I'm ""old"" and slow now. So I'm curious, any of my fellow players 25 & up in X-rank? Is there hope for me or should I just come to terms with it?",Sí,24
+lzomhp,I'm trying to get into splat chargers. Is this a good build?,2021-03-07 11:11:33,ordinary_chair,https://i.redd.it/ank7zyj2all61.jpg,11,,No,24
+lccoxa,Splatoon or splatoon 2,2021-02-04 10:14:27,Bigtim6000,https://www.reddit.com/r/SplatoonMeta/comments/lccoxa/splatoon_or_splatoon_2/,33,I have a Wii U and a switch and I want to get a splatoon game but I don’t know which one to get. Can someone tell me which is better?,Sí,25
+knl3jf,How good is Splashdown?,2020-12-31 06:57:30,ELIMINADO,https://www.reddit.com/r/SplatoonMeta/comments/knl3jf/how_good_is_splashdown/,18,"I main the splat roller and am well aware of the fact that it's popular in X rank. Even in rank B TC (my current highest) I can see how well it works with the curling bombs plus abilities like Ninja Squid and Stealth Jump, but I'm not entirely certain what the value of Splashdown is. 
+
+Even in Turf Wars people can shoot me down mid-animation. Hell, I've shot other Splashdown users down without even meaning to. Plus, it's not too difficult to escape the instakill radius in a lot of situations. The only ""safe"" way to use Splashdown is mid-superjump, and while this is excellent for nuking the tower, it's not always a possibility (need to charge it + teammate needs to be on/near the objective, or in heated firefight).
+
+Thus, my question - how good is Splashdown, really?",Sí,23
+ia0g0j,What weapons are strong rn?,2020-08-15 03:33:24,SquidsAreOkayIGuess,https://www.reddit.com/r/SplatoonMeta/comments/ia0g0j/what_weapons_are_strong_rn/,15,"I haven’t played the game in a full year and just started playing again, I was wondering what the meta generally looks like and what perks are popular now.",Sí,25
+gaetgv,Heres my loadout. Tips would be appreciated,2020-04-29 18:35:55,Alecsixnine,https://i.redd.it/5p21g31ywsv41.jpg,22,,No,25
+bmdfki,Splatmeta April update,2019-05-09 00:59:46,QWE0071,https://www.splatmeta.ink/xrank,12,,No,23
+adopzw,Is the bamboozler a viable weapon in high ranked play,2019-01-08 01:09:09,You-Looked,https://www.reddit.com/r/SplatoonMeta/comments/adopzw/is_the_bamboozler_a_viable_weapon_in_high_ranked/,14,"elastic ancient berserk squealing friendly bells fear longing rustic poor
+
+ *This post was mass deleted and anonymized with [Redact](https://redact.dev/home)*",Sí,24
+zsrjlr,Turf War / Splatfest builds,2022-12-22 17:23:37,KarubanBeika,https://i.redd.it/l66fd2j1zi7a1.jpg,20,"With the upcoming Splatfest, I’ve been playing a lot of turf war. Found the sploosh is the most fun and effective for my play style. Think of a mix of scout and spy from TF2. Though I’m torn between these builds, and I find myself switching between these constantly. What build would you pick of the 5, and what would you guys change? Main priority is going fast ~ Also hammer and curling bomb need a buff asap lol 
+
+Hammer needs more protection from the front, an actual lethal explosion hitbox, and fewer startup frames. Curling bomb should charge faster and/or cost less ink to throw. Thoughts?
+
+I believe in the sploosh turf meta",Sí,24
+y8986h,Welcoming criticism for my REEF-LUX build,2022-10-19 17:46:27,Octorockandroll,https://i.redd.it/j4vlp239vsu91.png,19,,No,24
+y7le0j,To the 0.1% (Tenta Brella Mains): How Does The Tenta Brella Feel To You Compared To S2?,2022-10-18 22:46:14,TheBluestJay,https://www.reddit.com/r/SplatoonMeta/comments/y7le0j/to_the_01_tenta_brella_mains_how_does_the_tenta/,10,"I've used the Tenta Brella a ton in S2 and was excited for how they will change the weapon going into 3.  Outside of Slosher Machine hard countering Brella's due to to a hit-box oversite and canopy bugs, there are some major issues with the weapon.
+
+This thing kills even less consistently now.  The one shot hit-box requires the user to be nearly as precise as a tri stringer.  Aiming just a hair off will deny you of any reasonable positive result including 2 shot kills.  Fall off, though not exclusively a Splatoon 3 problem, has an arguably worse problem now.  Due to these DPS problems, winning 1v1s is extremely hard if you cant take the 3ish seconds to launch the canopy.  Oh, right, the weapon doesn't function well with Nintendo's current network infrastructure (enemies shooting you through Brellas etc.).  I was not struggling nearly this much before Splatty 3 arrived.  They changed the weapon in ways so subtly worse that I'm not even sure if my observations are factually true.  All I know is that this weapon feels less rewarding to play now.
+
+What are your thoughts on the weapon?",Sí,22
+m9mw53,"Been getting more competitive lately, any advice for Tetra builds?",2021-03-21 03:02:24,Atomic-Blue27383,https://i.redd.it/qyylvdakrao61.jpg,11,,No,23
+ipbh35,Who are you going for?,2020-09-09 07:29:25,ELIMINADO,https://www.reddit.com/r/SplatoonMeta/comments/ipbh35/who_are_you_going_for/,13,"January 2021, 
+
+Which power-up do you prefer?
+
+Invisibility from a Super Star
+or
+Power-up from a Super Mushroom
+
+(I’m Team SuperStar all the way)
+
+[View Poll](https://www.reddit.com/poll/ipbh35)",Sí,24
+gkrnie,"Maining Splattershot Jr., is it ok?",2020-05-16 09:06:40,ferlopeta,https://www.reddit.com/r/SplatoonMeta/comments/gkrnie/maining_splattershot_jr_is_it_ok/,10,"I began playing on the last demo, I'm level 19 now with a ratio of 36 wins- 14 loses on average, I've tried another weapons but the one I feel the most comfortable is the splattershot Jr.
+The thing is.. is it just a newbie weapon that has no chances of winning in higher ratings or is it a viable/competitive option as long as i like it?",Sí,23
